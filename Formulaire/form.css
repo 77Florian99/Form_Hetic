@@ -1,24 +1,58 @@
-form {
 
-    background-color: white;
-    border-radius: 26px;
+* {
+    box-sizing: border-box;
 
 }
 
-.font_primary{ font-family:'Montserrat', sans-serif;
-         }
+html,
+body {
+    height: 100vh;
+}
 
-        .font_secondary{
 
-            font-family:'Montserrat', sans-serif;
-            font-weight: bold ;
 
-        }
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+form {
+
+    background-color: blue;
+    border-radius: 26px;
+    width: 83.125%;
+    height: 76.1%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+
+}
+
+.container{
+
+    display: flex;
+}
+
+.font_primary {
+    font-family: 'Montserrat', sans-serif;
+    color: #02394A;
+}
+
+.font_secondary {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #02394A;
+
+}
 
 .text-4xl {
     font-size: 2.25rem;
-    letter-spacing: 30%;
-   }
+    letter-spacing: 0.3em;
+}
 
 
 .text-3xl {
@@ -30,7 +64,7 @@ form {
     letter-spacing: 30%;
 }
 
-.text-1xl {font-size: 0.75rem; 
-        letter-spacing: 30%;
+.text-1xl {
+    font-size: 0.75rem;
+    letter-spacing: 30%;
 }
-

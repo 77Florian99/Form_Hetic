@@ -6,22 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forgot Pswd</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link href="form.css" rel="stylesheet">
 </head>
 
 <body>
     <form method="post" action="traitement.php">
 
-        <h1>Forgot Password</h1>
+        <h1 class='font_primary text-4xl'>Forgot Password</h1>
 
-        <label for="pseudo">Email/Username :</label>
-        <input type="text" name="pseudo" id="pseudo" />
+        <input class="font_primary text-2xl" value="Email/Username" type="text" name="pseudo" id="pseudo" />
 
-        <br>
-        <br>
-        <label for="pass">New password :</label>
-        <input type="text" name="pseudo" id="pass" />
-        <br>
-        <input type="submit" value="Reset" />
+        <input class="font_primary text-2xl" value="New password " type="text" name="pseudo" id="pass" />
+
+        <input class="text-3xl" type="submit" value="Reset" />
     </form>
 </body>
 

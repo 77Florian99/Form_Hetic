@@ -6,30 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link href="form.css" rel="stylesheet">
 
 </head>
 
 <body>
     <form method="post" action="traitement.php">
 
-        <h1>Sign up</h1>
+        <div class="container">
 
-        <label for="pseudo">Email/Username :</label>
-        <input type="text" name="pseudo" id="pseudo" />
-        <br>
-        <br>
+        <div class="form_container">
 
-        <label for="pass">Password:</label>
-        <input type="text" name="pseudo" id="pass" />
-        <br>
-        <br>
+            <h1 class='font_primary text-4xl'>Sign up</h1>
 
-        <label for="pass">Confirm Password:</label>
-        <input type="text" name="pseudo" id="pass" />
-        <br>
-        <input type="submit" value="Login" />
+            <input class="font_primary text-2xl" value="Email/Username" type="text" name="pseudo" id="pseudo" />
+
+            <input class="font_primary text-2xl" value="Password" type="text" name="pseudo" id="pass" />
+
+            <input class="font_primary text-2xl" value="Confirm Password" type="text" name="pseudo" id="pass" />
+
+            <input class="font_primary text-3xl" type="submit" value="Login" />
     </form>
 
+    </div>
+
+    <div class="txt_container">
+        <h1 class='font_primary text-4xl'>Wanna join us</h1>
+        <input class="font_primary text-3xl" type="submit" value="Sign up" />
+
+    </div>
+
+</div>
 
 
 </body>

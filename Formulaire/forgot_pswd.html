@@ -5,20 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link href="form.css" rel="stylesheet">
 
 </head>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
 
 <body>
     <form method="post" action="traitement.php">
 
-        <h1>Forgot Password</h1>
+        <div class="container"
 
-        <label for="pass">New password :</label>
-        <input type="text" name="pseudo" id="pass" />
-        <br>
+        <div class="form_container">
+            <h1 class='font_primary text-4xl'>Forgot Password</h1>
+            <input class="font_primary text-2xl" value="New password " type="text" name="pseudo" id="pass" />
+            <br>
+            <input class="font_primary text-3xl" type="submit" value="Reset" />
+        </div>
 
-        <input type="submit" value="Reset" />
+        <div class="txt_container">
+
+            <h1 class='font_primary text-4xl'>Wanna join us</h1>
+            <input class="font_primary text-3xl" type="submit" value="Sign up" />
+        </div>
+
     </form>
 </body>
 
