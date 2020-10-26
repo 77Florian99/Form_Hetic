@@ -23,32 +23,19 @@ body {
 
 form {
 
-<<<<<<< HEAD
-    background-image: url("images/rectangle.svg");
-    ;
-=======
     background-image: url("images/rectangle.svg");;
->>>>>>> 3809073956c8b914552313abeb534e82ebf3be25
     border-radius: 26px;
     width: 83.125%;
     height: 76.1%;
     background-size: cover;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
     justify-content: center;
     display: flex;
     box-shadow: 6px 7px 4px 3px rgba(2, 57, 74, 0.2);
 }
 
 .form_container {
-=======
-    justify-content: space-between;
-    display: flex;
-    box-shadow: 6px 7px 4px 3px rgba(2, 57, 74, 0.2);
-}
-.form_container{
->>>>>>> 3809073956c8b914552313abeb534e82ebf3be25
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,22 +44,14 @@ form {
     width: 75%;
     color: #02394A;
 }
-<<<<<<< HEAD
 
 .container {
-=======
-.container{
->>>>>>> 3809073956c8b914552313abeb534e82ebf3be25
     width: 100%;
     height: auto;
     display: flex;
 }
-<<<<<<< HEAD
 
 .txt_container {
-=======
-.txt_container{
->>>>>>> 3809073956c8b914552313abeb534e82ebf3be25
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -81,18 +60,13 @@ form {
     height: 685px;
     width: 521px;
 }
-<<<<<<< HEAD
 
 .form_input_size {
-=======
-.form_input_size{
->>>>>>> 3809073956c8b914552313abeb534e82ebf3be25
     width: 385px;
     height: 70px;
     background-color: #9db0c0;
     border-radius: 10px
 }
-<<<<<<< HEAD
 
 .icon_email {
 
@@ -102,33 +76,16 @@ form {
 .icon_password {
 
     padding-left: 50px;
-=======
-.icon_email{
-    background: url(images/email.png) no-repeat scroll 14px 26px;
-    padding-left:50px;
-}
-.icon_password{
-    background: url(images/padlock.png) no-repeat scroll 14px 24px;
-    padding-left:50px;
->>>>>>> 3809073956c8b914552313abeb534e82ebf3be25
 }
 
 .font_primary {
     font-family: 'Montserrat', sans-serif;
     color: #02394A;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 3809073956c8b914552313abeb534e82ebf3be25
 .font_primary_light {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 3809073956c8b914552313abeb534e82ebf3be25
 .font_secondary {
 
     font-family: 'Montserrat', sans-serif;
@@ -156,16 +113,10 @@ form {
 
 .text-1xl {
     font-size: 0.75rem;
-<<<<<<< HEAD
     letter-spacing: 0.3em;
 }
 
 .svg_primary {
-=======
-    letter-spacing: 30%;
-}
-.svg_primary{
->>>>>>> 3809073956c8b914552313abeb534e82ebf3be25
     border-radius: 26px;
     width: 83.125%;
     height: 76.1%;
@@ -173,7 +124,6 @@ form {
     justify-content: center;
     display: flex;
 }
-<<<<<<< HEAD
 
 .button_dimension {
     width: 205px;
@@ -201,10 +151,3 @@ form {
 
 .button_dimension:hover{background-color: #02394A; color: #ffffff;}
 
-=======
-.button_dimension{
-    width: 205px;
-    height: 70px;
-    border-radius: 45px;
-}
->>>>>>> 3809073956c8b914552313abeb534e82ebf3be25
