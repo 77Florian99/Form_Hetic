@@ -27,6 +27,7 @@ form {
     height: 76.1%;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     display: flex;
 
 }
@@ -34,7 +35,12 @@ form {
 .container{
 
     display: flex;
+    align-items: center;
 }
+.form_container{ display: flex; flex-direction: column;  }
+
+.txt_container{ display: flex; flex-direction: column;  }
+
 
 .font_primary {
     font-family: 'Montserrat', sans-serif;
