@@ -86,7 +86,7 @@ body {
 }
 .icon_input{
     position: absolute;
-    transform: translateX(25px) translateY(30px);
+    transform: translateX(25px) translateY(25px);
 }
 
 /*
