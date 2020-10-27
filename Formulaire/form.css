@@ -40,6 +40,7 @@ body {
     color: #02394A;
 }
 .form_input_size {
+    padding-left: 50px;
     width: 385px;
     height: 70px;
     background-color: #9db0c0;
@@ -69,12 +70,6 @@ body {
 /*
 *   Icon style
 */
-.icon_email {
-    padding-left: 50px;
-}
-.icon_password {
-    padding-left: 50px;
-}
 .ico-container img{
     margin: 46px;
     margin-top: 0;
@@ -89,6 +84,11 @@ body {
     justify-content: center;
     display: flex;
 }
+.icon_input{
+    position: absolute;
+    transform: translateX(25px) translateY(30px);
+}
+
 /*
 *   Font style
 */

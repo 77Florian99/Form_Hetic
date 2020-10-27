@@ -8,7 +8,7 @@
     <link href="form.css" rel="stylesheet">
 </head>
 <body>
-    <form class="form_style">
+    <form method="post" class="form_style">
         <div class="container">
             <div class="form_container">
                 <h1 class='font_primary text-4xl'>Welcome back</h1>
@@ -18,19 +18,25 @@
                     <img src="images/linkedin_1_1.svg" alt="Linkedin logo">
                 </div>
                 <div class="separator"></div>
-                <input class="font_primary form_input_size text-2xl icon_email" value="Email/Username" type="text" name="pseudo" id="pseudo"/>
-                <input class="font_primary form_input_size text-2xl icon_password" value="Password" type="text" name="pseudo" id="pass" />
-                <a href="forgot_pswd.html">
+                <div>
+                    <img src="images/email.png" alt="logo email" class="icon_input">
+                    <input class="font_primary form_input_size text-2xl" value="Email/Username" type="text" name="pseudo" id="pseudo"/>
+                </div>
+                <div>
+                    <img src="images/padlock.png" alt="logo padlock" class="icon_input">
+                    <input class="font_primary form_input_size text-2xl" value="Password" type="text" name="pseudo" id="pass" />
+                </div>
+                <a href="">
                     <p class="font_primary text-1xl">Forgot your Password </p>
                 </a>
-                <input class="font_primary button_dimension text-3xl" type="button" value="Sign in"> </a>
+                <input class="font_primary button_dimension text-3xl" type="submit" value="Sign in" />
             </div>
         <div class="txt_container">
             <div class="txt_container_position">
                 <h1 class='font_primary_light text-4xl'>Wanna <br>join us ?</h1>
-                
-                   <a href="sign_up.html" target="_blank"> <input class="font_primary button_dimension text-3xl" type="button" value="Sign up"> </a>
-               
+                <form action="sign_up.html" method="get">
+                    <input class="font_primary text-3xl button_dimension" type="submit" value="Sign up" />
+                </form>
             </div>
         </div>
     </div>
