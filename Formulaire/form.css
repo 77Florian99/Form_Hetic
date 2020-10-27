@@ -19,7 +19,7 @@ body {
 */
 .form_style {
 
-    background-image: url("images/rectangle.svg");;
+    background-image: url("images/rectangle.svg");
     border-radius: 26px;
     width: 83.125%;
     height: 76.1%;
@@ -133,8 +133,17 @@ body {
     height: 70px;
     border-radius: 45px;
     border-style: none;
+    background-color: #ffffff;
 }
-.button_dimension:hover{background-color: #02394A; color: #ffffff;}
+.button_dimension:hover{
+    background-color: #809CA4; 
+    color: #ffffff;
+}
+.button_dimension:active{
+    background-color: #02394A; 
+    color: #ffffff;
+    border: 3px solid #FFFFFF;
+}
 .separator {
     border: 3px solid #02394A;
     width:230px;
